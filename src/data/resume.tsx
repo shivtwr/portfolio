@@ -7,10 +7,9 @@ export const DATA = {
   url: "https://shivtiwari.com",
   location: "Lucknow, India",
   locationLink: "https://maps.app.goo.gl/kWPEHbkuwcJ2iEQX6",
-  description:
-    "Fullstack Blockchain Developer with a knack for clean and intuitive design",
+  description: "Fullstack Developer & DeFi Enthusiast",
   summary:
-    "Graduated in 2025, constantly building and learning in the Web3 space. I like to own the process end-to-end, from writing secure smart contracts to crafting intuitive and sleek UIs. Excited to work on ideas that empower the end user.",
+    "2025 grad, constantly building and learning in the Fullstack & Web3 space. I like to own the process end-to-end, from crafting intuitive and sleek UIs to ensuring smooth distribution.",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -34,7 +33,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/shivdotsol",
+        url: "https://github.com/shivtwr",
         icon: Icons.github,
 
         navbar: true,
@@ -48,7 +47,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://x.com/sh1vtwt",
+        url: "https://x.com/shivtwr",
         icon: Icons.x,
 
         navbar: true,
@@ -69,21 +68,19 @@ export const DATA = {
     },
   },
 
-  // work: [
-  //   {
-  //     company: "",
-  //     href: "",
-  //     badges: [],
-  //     location: "",
-  //     title: "",
-  //     logoUrl: "",
-  //     start: "",
-  //     end: "",
-  //     description:
-  //       "",
-  //   },
-    
-  // ],
+  work: [
+    {
+      company: "Accenture",
+      href: "",
+      badges: [],
+      location: "",
+      title: "Associate Software Engineer",
+      logoUrl: "/accenture.png",
+      start: "March 2026",
+      end: "Present",
+      description: "",
+    },
+  ],
   education: [
     {
       school: "SRMU",
@@ -92,7 +89,7 @@ export const DATA = {
       logoUrl: "/srmu.png",
       start: "2022",
       end: "2025",
-    }
+    },
   ],
   projects: [
     {
@@ -119,8 +116,7 @@ export const DATA = {
         },
       ],
       image: "/token-launchpad.png",
-      video:
-        "",
+      video: "",
     },
   ],
 } as const;
